@@ -32,6 +32,7 @@ ps: Name, surname, point dəyərləri olmadan student obyekti yaratmaq olmaz
         {
             Name = name; Surname = surname;
             Point = point;
+            
             _id++;
         }
         public void ShowInfo()
@@ -39,8 +40,8 @@ ps: Name, surname, point dəyərləri olmadan student obyekti yaratmaq olmaz
             Console.WriteLine($"Name {Name}\n" +
                 $"Surname{Surname}\n" +
                 $"Age {Age}\n" +
-                $"Point{Point}\n" +
-                $"Id{Id}");
+                $"Point {Point}\n" +
+                $"Id {Id}");
         }
         public static bool operator >(Student s1, Student s2){
             return s1.Point > s2.Point;

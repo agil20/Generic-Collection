@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Generic-Collections\\Generic Colletions\\Generic Colletions\\Generic Colletions.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\Generic-Collectionffxhjdzghjji\\Generic Colletions\\Generic Colletions\\Generic Colletions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Generic-Collections\\Generic Colletions\\Generic Colletions\\Generic Colletions.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\Generic-Collectionffxhjdzghjji\\Generic Colletions\\Generic Colletions\\Generic Colletions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Generic-Collections\\Generic Colletions\\Generic Colletions\\Generic Colletions.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Generic-Collectionffxhjdzghjji\\Generic Colletions\\Generic Colletions\\Generic Colletions.csproj",
         "projectName": "Generic Colletions",
-        "projectPath": "C:\\Users\\User\\Desktop\\Generic-Collections\\Generic Colletions\\Generic Colletions\\Generic Colletions.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\Generic-Collectionffxhjdzghjji\\Generic Colletions\\Generic Colletions\\Generic Colletions.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Generic-Collections\\Generic Colletions\\Generic Colletions\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\Generic-Collectionffxhjdzghjji\\Generic Colletions\\Generic Colletions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -7,10 +7,30 @@ namespace Generic_Colletions
     {
         static void Main(string[] args)
         {
-   
-            //Student student1 = new Student("Aqil", "Xalil0v", 22);
-            //Student student2=new Student("Aqil2", "Xalil0v2", 21);
-            //Console.WriteLine(student1<student2);
+
+            //Console.WriteLine("name: ");
+            //string name=Console.ReadLine();
+            //Console.WriteLine("Surname: ");
+            //string surname=Console.ReadLine();
+            //Console.WriteLine("point: ");
+            //int point=Convert.ToInt32(Console.ReadLine());
+
+            //Student student = new Student(name, surname, point);
+            //Console.WriteLine("Age: ");
+            //student.Age=Convert.ToInt32(Console.ReadLine());
+            
+            //student.ShowInfo();
+            //Console.WriteLine("name: ");
+            //string name1 = Console.ReadLine();
+            //Console.WriteLine("Surname: ");
+            //string surname1 = Console.ReadLine();
+            //Console.WriteLine("point: ");
+            //int point1 = Convert.ToInt32(Console.ReadLine());
+
+            //Student student1 = new Student(name, surname, point);
+            //Console.WriteLine("Age: ");
+            //student.Age = Convert.ToInt32(Console.ReadLine());
+            //student.ShowInfo();
 
 
 
