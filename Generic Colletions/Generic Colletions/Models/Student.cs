@@ -17,6 +17,10 @@ namespace Generic_Colletions.Models
 
 ps: Name, surname, point dəyərləri olmadan student obyekti yaratmaq olmaz
 */
+        public Student()
+        {
+
+        }
         private static int _id;
         public int Id
         {
