@@ -17,35 +17,33 @@ namespace Generic_Colletions.Models
 
 ps: Name, surname, point dəyərləri olmadan student obyekti yaratmaq olmaz
 */
-        public Student()
-        {
-
-        }
+       
         private static int _id;
-        public int Id
-        {
-            get { return _id; }
-            private set { _id = 1; }
-        }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
 
         public int Age { get; set; }
         public int Point { get; set; }
+        public Student()
+        {
+            _id++;
+            Id = _id;
+        }
         public Student(string name, string surname, int point)
         {
             Name = name; Surname = surname;
             Point = point;
             
-            _id++;
+            
         }
         public void ShowInfo()
         {
             Console.WriteLine($"Name {Name}\n" +
                 $"Surname{Surname}\n" +
-                $"Age {Age}\n" +
-                $"Point {Point}\n" +
-                $"Id {Id}");
+
+                $"Point {Point}\n");
+           
         }
         public static bool operator >(Student s1, Student s2){
             return s1.Point > s2.Point;

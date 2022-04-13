@@ -7,31 +7,25 @@ namespace Generic_Colletions
     {
         static void Main(string[] args)
         {
+            //a) 4 dənə student obyekti yaradın qarışıq point dəyərlərində.
+            Student student1 = new Student("Aqil","Xalilov",100);
+            Student student2 = new Student("Xalil", "Xalilov", 101);
+            Student student3 = new Student("Amil", "Xalilov", 99);
+            Student student4 = new Student("Taner", "Xalilov", 130);
 
-            //Console.WriteLine("name: ");
-            //string name=Console.ReadLine();
-            //Console.WriteLine("Surname: ");
-            //string surname=Console.ReadLine();
-            //Console.WriteLine("point: ");
-            //int point=Convert.ToInt32(Console.ReadLine());
+            //b) Group obyekti yaradın və group obyektinə AddStudent methodundan istifadə edərək studentləri əlavə edin.
+            Group group =new Group();
+            group.AddStudent(student1);
+            group.AddStudent(student2);
+            group.AddStudent(student3);
+            group.AddStudent(student4);
 
-            //Student student = new Student(name, surname, point);
-            //Console.WriteLine("Age: ");
-            //student.Age=Convert.ToInt32(Console.ReadLine());
-            
-            //student.ShowInfo();
-            //Console.WriteLine("name: ");
-            //string name1 = Console.ReadLine();
-            //Console.WriteLine("Surname: ");
-            //string surname1 = Console.ReadLine();
-            //Console.WriteLine("point: ");
-            //int point1 = Convert.ToInt32(Console.ReadLine());
+            //c) GetAllStudents methodundan istifadə edərək bütün studentləri ekrana çıxardın.
 
-            //Student student1 = new Student(name, surname, point);
-            //Console.WriteLine("Age: ");
-            //student.Age = Convert.ToInt32(Console.ReadLine());
-            //student.ShowInfo();
-
+            //group.GetStudents();
+            ////d) Sort methodundan istifadə edərək sort olunmuş studentləri ekrana çıxardın.
+            group.Sort();
+            //e) İkinci bir Group obyketi yaradın və qrup nömrəsinin avtomatik artmağını yoxlayın.
 
 
         }
